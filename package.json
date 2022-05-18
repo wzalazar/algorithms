@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "lint": "yarn eslint src/**/*.js",
-    "lint:fix": "yarn eslint src/**/*.js --fix"
+    "lint:fix": "yarn eslint src/**/*.js --fix",
+    "semantic-release": "semantic-release"
   },
   "author": "Walter Zalazar",
   "license": "MIT",
@@ -15,8 +16,10 @@
     "jest": "^28.1.0"
   },
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "eslint": "^7.32.0 || ^8.2.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.2"
+    "eslint-plugin-import": "^2.25.2",
+    "semantic-release": "^19.0.2"
   }
 }
