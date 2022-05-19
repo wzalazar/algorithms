@@ -23,3 +23,9 @@ targetSum = 10
 ```
 
 ### Sample Output
+
+```javascript
+
+[-1, 11] // the numbers could be in reverse order
+
+```
